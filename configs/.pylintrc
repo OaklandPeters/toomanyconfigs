@@ -1,0 +1,44 @@
+# checks for sign of poor/misdesign:
+# # * number of methods, attributes, local variables...
+# # * size, complexity of functions, methods
+# # 
+[DESIGN]
+# Maximum number of arguments for function / method
+max-args=12
+
+# Maximum number of locals for function / method body
+max-locals=30
+
+# Maximum number of return / yield for function / method body
+max-returns=12
+
+# Maximum number of branch for function / method body
+max-branchs=30
+
+# Maximum number of statements in function / method body
+max-statements=60
+
+# Maximum number of parents for a class (see R0901).
+max-parents=7
+
+# Maximum number of attributes for a class (see R0902).
+max-attributes=30
+
+# Minimum number of public methods for a class (see R0903).
+min-public-methods=0
+
+# Maximum number of public methods for a class (see R0904).
+max-public-methods=50
+
+[FORMAT]
+# Modern computers display 100 characters comfortably.
+max-line-length=100
+
+[MESSAGES CONTROL]
+# C0111: Missing docstring
+# E0102: When a function / class / method is redefined.
+# E1101: When a variable is accessed for an unexistent member.
+#     Both E0102 & E1101 incorrectly trigger for @property s in Python 2.6
+# W0142: Used * or ** magic
+disable=E0102,E1101,W0142,C0325
+

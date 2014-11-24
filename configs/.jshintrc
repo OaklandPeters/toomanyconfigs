@@ -1,0 +1,68 @@
+{
+   /*** Enforcing options ***/
+  // Set these to `true` to enforce, or `false` to relax.
+  "bitwise":      false,
+  "curly":        false,
+  "eqeqeq":       false,
+  "forin":        false,
+  "immed":        false,
+  "latedef":      false,
+  "newcap":       true,
+  "noarg":        true,
+  "noempty":      true,
+  "nonew":        false,
+  "plusplus":     false,
+  "regexp":       false,
+  "undef":        false,
+  "strict":       false,
+  "trailing":     true,
+
+  /*** Relaxing options ***/
+  // Set these to `true` to relax, or `false` to enforce.
+  "asi":          false,
+  "boss":         true,
+  "debug":        false,
+  "eqnull":       true,
+  "es5":          true,
+  "esnext":       true,
+  "evil":         true,
+  "expr":         true,
+  "funcscope":    false,
+  "globalstrict": false,
+  "iterator":     false,
+  "lastsemic":    false,
+  "laxbreak":     true,
+  "laxcomma":     false,
+  "loopfunc":     true,
+  "multistr":     false,
+  "onecase":      false,
+  "proto":        false,
+  "regexdash":    false,
+  "scripturl":    false,
+  "shadow":       true,
+  "smarttabs":    true,
+  "sub":          true,
+  "supernew":     false,
+  "validthis":    true,
+
+  /*** Environments ***/
+  // Set each environment that you're using to `true`.
+  "browser":      true,
+  "couch":        false,
+  "devel":        false,
+  "dojo":         false,
+  "jquery":       true,
+  "mootools":     false,
+  "node":         false,
+  "nonstandard":  false,
+  "prototypejs":  false,
+  "rhino":        false,
+  "wsh":          false,
+
+  /*** Legacy from JSLint ***/
+  // Set these to `true` to enforce, or `false` to relax.
+  "nomen":        false,
+  "onevar":       false,
+  "passfail":     false,
+  "white":        false
+}
