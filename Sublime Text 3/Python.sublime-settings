@@ -1,0 +1,24 @@
+{
+    // editor options
+    "draw_white_space": "all",
+
+    // tabs and whitespace
+    "auto_indent": true,
+    "rulers": [80],
+    "smart_indent": true,
+    "tab_size": 4,
+    "trim_automatic_white_space": true,
+    "use_tab_stops": true,
+    "word_wrap": true,
+    "wrap_width": 100,
+
+    "complete_parameters": false,
+    "complete_all_parameters": false,
+
+    "auto_complete_triggers": [
+        {
+            "selector": "source.python - string - comment - constant.numeric",
+            "characters": "."
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    // Turn off SublimePython Linter - using SublimeLinter instead
+    "python_linting": false,
+    "python_linter_gutter_marks": true,
+    "pep8": true
+}

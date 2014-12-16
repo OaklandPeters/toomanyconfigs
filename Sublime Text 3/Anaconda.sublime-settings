@@ -1,0 +1,28 @@
+{
+
+    /*
+        Default python interpreter.
+
+        This can (and should) be overridden by project settings
+    */
+    "python_interpreter": "python",
+
+    /*
+        If complete_parameters is true, anaconda will add function and class
+        parameters to its completions.
+
+        If complete_all_parameters is true, it will add all the possible
+        parameters, if it's false, it will add only required parameters
+    */
+    "complete_parameters": true,
+    "complete_all_parameters": true,
+
+    /*
+        If you set the following option as true, anaconda will display the
+        signatures of the methods you are using while typing
+    */
+    "display_signatures": true,
+
+
+    "pep8_max_line_length": 100
+}
