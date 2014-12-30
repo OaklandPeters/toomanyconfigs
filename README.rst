@@ -7,7 +7,7 @@ A collection of configuration files for web-related development on Mac/Linux. ``
 
 Motivation
 ------------
-Mac/Linux developement has *too* *many* *configurations*, and this can be very daunting for a novice developer - particularly since they are unlikely to know that many possible configuration files even exist.
+Modern development for Mac and Linux has *too* *many* *configurations*, and this can be daunting for a novice developer - particularly since they are unlikely to know which configuration files exist, which ones they should bother with, or where those files should be located. This simple project endevours to improve this.
 
 File Listing
 -------------
@@ -23,7 +23,7 @@ File Listing
 - guides/
     - pylint_messages.txt: A list of error codes for Pylint. Useful for overriding/ignoring Pylint complaints on a line-by-line basis. (``#pylint: disable={code}``)
 - Sublime Text 3/
-    - For both Sublime Text 3, and it's many useful plugins. So many, in fact, that they get their own directory. These are highly subjective - use at your own discretion, and only if you are running the related plugin.
+    - For both Sublime Text 3, and it's many useful plugins. So many, in fact, that they get their own directory. These are highly subjective - so use and customize these at your own discretion, and only if you are running the related plugin.
 - theatlantic/
     - ojp-local-webserver: web-server configurations, primarily for local dev testing of web-sites.
 

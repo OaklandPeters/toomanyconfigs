@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="php-debug-variable">
+    <span><b>${1:variable}</b></span>
+    <span><small><? print_r(\$${1:variable}); ?></small></span>
+</div>
+]]></content>
+    <tabTrigger>php-debug-var</tabTrigger>
+    <scope>text.html</scope>
+    <description>PHP Debug - Variable</description>
+</snippet>

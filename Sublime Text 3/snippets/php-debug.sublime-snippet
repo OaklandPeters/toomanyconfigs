@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+?>
+<script type="text/javascript">
+\$(document).ready(function(){
+  \$(".php-debug-display").detach().prependTo("${1:display_location_css}");
+});
+</script>
+
+<pre class="php-debug php-debug-display">
+    php-debug-var $0
+</pre>
+<?
+]]></content>
+    <tabTrigger>php-debug</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
