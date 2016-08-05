@@ -1,0 +1,71 @@
+{
+   /*** Enforcing options ***/
+  // Set these to `true` to enforce, or `false` to relax.
+  "bitwise":      true,
+  "curly":        true,
+  "eqeqeq":       true,
+  "forin":        false,
+  "immed":        true,
+  "latedef":      true,
+  "newcap":       true,
+  "noarg":        true,
+  "nonew":        false,
+  "plusplus":     false,
+  "regexp":       false,
+  "undef":        true,
+  "strict":       false,
+  "trailing":     true,
+
+  /*** Relaxing options ***/
+  // Set these to `true` to relax, or `false` to enforce.
+  "asi":          false,
+  "boss":         true,
+  "debug":        false,
+  "eqnull":       false,
+  "esnext":       true,
+  "evil":         false,
+  "expr":         false,
+  "funcscope":    false,
+  "globalstrict": false,
+  "iterator":     false,
+  "lastsemic":    false,
+  "laxbreak":     true,
+  "laxcomma":     false,
+  "loopfunc":     false,
+  "multistr":     false,
+  "onecase":      false,
+  "proto":        false,
+  "regexdash":    false,
+  "scripturl":    false,
+  "shadow":       false,
+  "sub":          true,
+  "supernew":     false,
+  "validthis":    true,
+
+  /*** Environments ***/
+  // Set each environment that you're using to `true`.
+  "browser":      true,
+  "couch":        false,
+  "devel":        false,
+  "dojo":         false,
+  "jquery":       true,
+  "mootools":     false,
+  "node":         false,
+  "nonstandard":  false,
+  "prototypejs":  false,
+  "rhino":        false,
+  "wsh":          false,
+
+  /*** Legacy from JSLint ***/
+  // Set these to `true` to enforce, or `false` to relax.
+  "nomen":        false,
+  "onevar":       false,
+  "passfail":     false,
+  "white":        false,
+
+  /*** Define global variables that don't need to be imported ***/
+  "globals": {
+      "_": false,
+      "angular": false
+  }
+}
